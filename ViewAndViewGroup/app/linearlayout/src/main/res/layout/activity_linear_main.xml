@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearMainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="균등분"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:onClick="equal_button_click"/>
+    <!-- option +enter 해서 method 만들기 클릭해서 onClick에 대한 메소드 만들어-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비균등분포"
+        android:textSize="30sp"
+        android:onClick="unequal_button_click"/>
+
+</LinearLayout>
